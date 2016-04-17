@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Docente"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        android:textSize="12pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Condición"
+        android:id="@+id/textView6"
+        android:layout_weight="0.03"
+        android:textSize="11pt" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contratado"
+        android:id="@+id/BContratado"
+        android:layout_weight="0.03"
+        android:checked="false"
+        android:textSize="10pt" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estable"
+        android:id="@+id/BEstable"
+        android:layout_weight="0.03"
+        android:checked="false"
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoría"
+        android:id="@+id/textView7"
+        android:layout_weight="0.03"
+        android:textSize="11pt" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auxiliar"
+        android:id="@+id/bAuxiliar"
+        android:layout_weight="0.03"
+        android:checked="false"
+        android:textSize="10pt" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asociado"
+        android:id="@+id/bAsociado"
+        android:layout_weight="0.03"
+        android:checked="false"
+        android:textSize="10pt" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Principal"
+        android:id="@+id/bPrincipal"
+        android:layout_weight="0.03"
+        android:checked="false"
+        android:textSize="10pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dedicación"
+        android:id="@+id/textView8"
+        android:layout_weight="0.03"
+        android:textSize="11pt" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo Parcial"
+        android:id="@+id/bTiempoParcial"
+        android:layout_weight="0.03"
+        android:checked="false"
+        android:textSize="10pt" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiempo Completo"
+        android:id="@+id/bTiempoCompleto"
+        android:layout_weight="0.03"
+        android:checked="false"
+        android:textSize="10pt" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/bGuardar"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+            android:onClick="onClickG" />
+
+</LinearLayout>
