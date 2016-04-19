@@ -18,30 +18,18 @@ public class ListaUsuarios extends Usuario {
         super();
     }
 
+    @Override
+    public void agregar(Usuario Usua) {
+
+    }
+
 	/*@Override
 	 * public Usuario creaUsuario(){
 	 * return new Usuario(){};
 	 * }
 	*/
 
-    @Override
-    public static void agregar(Usuario Usua) {
 
-        hijo.add(Usua);
-    }
-
-    public Usuario getUsuario(int i){
-
-        return hijo.get(i);
-    }
-
-    public static String listar(){
-        String cadena = "";
-        for (int i = 0; i < hijo.size(); ++i){
-            cadena=cadena+ hijo.get(i) + "\n";
-        }
-        return cadena;
-    }
 
     public void ordenaPorApellidos(){
         try{
