@@ -21,6 +21,8 @@
 
         <activity android:name=".Docente_Main"></activity>
 
+        <activity android:name=".RegistrarMaterial"></activity>
+
     </application>
 
 </manifest>
